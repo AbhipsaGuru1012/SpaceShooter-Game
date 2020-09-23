@@ -4,7 +4,7 @@ class PlayGameScene extends Phaser.Scene {
         this.score = 0;
     }
     preload() {
-        this.load.image('sky', 'http://labs.phaser.io/assets/skies/space3.png');
+        this.load.image('sky', 'https://labs.phaser.io/assets/skies/space3.png');
         this.load.image('jet', 'assets/jet.png');
         this.load.image('bomb', 'assets/bomb.png');
         this.load.image('ammo', 'assets/ammo.png');
